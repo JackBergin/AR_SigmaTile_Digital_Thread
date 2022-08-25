@@ -1,0 +1,235 @@
+/* Application styles */
+
+// logo will have a fixed height - scale down the image accordingly
+.scaled-logo {
+  object-fit: scale-down;
+  margin: 5px;
+}
+
+.watermark {
+  opacity: 0.5;
+}
+
+.rounded-corners {
+  border-radius: 5px;
+}
+
+// sequence playback button
+.play {
+  background: url("#{$resources}/Uploaded/battery_play_on.png") center/48px 48px no-repeat transparent;
+  height: 48px;
+  min-width: 48px;
+  border: none;
+  &.activated {
+    background-color: transparent;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.fixedRight {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  margin-top: -58px;
+  width: 54px;
+}
+
+.controlsRow {
+  padding-left: 0;
+}
+
+.directionButton {
+  display: block;
+  height: 48px;
+}
+
+
+// Media query to target landscape
+@media all and (orientation: landscape) {
+  // Selects the view and changes the background color
+  [twx-view="HomePage"] {
+    background: #3d4647;
+  }
+  [twx-view="IDF"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_AB"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_C"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_D"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_E"] {
+    background: #3d4647;
+  }
+  [twx-view="XR"] {
+    background: #3d4647;
+  }
+  [twx-view="CXC_WS"] {
+    background: #3d4647;
+  }
+  // Uses CSS border property to create a triangular shape
+  .choiceHeader {
+    border-top: 20vh solid #fff;
+  border-right: 20vh solid transparent;
+    width: 50%;
+  }
+  .choiceFooter {
+    border-bottom: 20vh solid #5f7070;
+    border-right: 200vh solid transparent;
+    height: 20vh;
+    padding: 0;
+  }
+  // Uses vh and vw units to adjust for different resolutions
+  .choicerow {
+    height: 40vh;
+  }
+  .logo {
+    width: 30%;
+  }
+  .horiz, .vert, .hyperlinked {
+    padding-top: 52px;
+  }
+}
+
+// Media query to target portrait 
+@media all and (orientation: portrait) {
+  [twx-view="HomePage"] {
+    background: #3d4647;
+  }
+  [twx-view="IDF"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_AB"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_C"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_D"] {
+    background: #3d4647;
+  }
+  [twx-view="CON_E"] {
+    background: #3d4647;
+  }
+  [twx-view="XR"] {
+    background: #3d4647;
+  }
+  [twx-view="CXC_WS"] {
+    background: #3d4647;
+  }
+  
+  .choiceHeader {
+    border-top: 10vh solid #fff;
+    border-right: 10vh solid transparent;
+    width: 80%;
+  }
+  .choicerow {
+    margin-top: 30%;
+    height: 30vh;
+  }
+  .choiceFooter {
+    border-bottom: 30vh solid #5f7070;
+    border-right: 60vh solid transparent;
+    height: 30vh;
+    padding: 0;
+  }
+  .logo {
+    width: 50%;
+  }
+  .horiz, .vert, .hyperlinked{
+    line-height: 24px;
+    max-width: 140px;
+    min-width: 135px;
+    padding-bottom: 10px;
+    padding-top: 43px;
+  }
+}
+
+.logo {
+  height: auto !important;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+.choicelabel {
+  color: #fff;
+  font-size: 29px;
+  font-weight: 350;
+  line-height: 36px;
+  text-align: center;
+}
+//On the homepage bottom for dating
+.choicelabel2 {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 36px;
+  text-align: center;
+}
+.choicelabel3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 350;
+  line-height: 36px;
+  text-align: center;
+}
+
+// Targets classes of buttons on the Choice view and adds background images to the buttons
+.horiz {
+  background: url(#{$resources}/Uploaded/choiceSurface.png) center 10px/ 32px 32px no-repeat;
+  border: 1px solid #5bb73b;
+  color: #fff !important;
+}
+
+.vert {
+  background: url(#{$resources}/Uploaded/choiceScreen.png) center 10px/ 32px 32px no-repeat;
+  border: 1px solid #5bb73b;
+  color: #fff !important;
+}
+
+.hyperlinked {
+  background: url(#{$resources}/Uploaded/choiceScreen.png) center 10px/ 32px 32px no-repeat;
+  border: 1px solid #5bb73b;
+  color: #fff !important;
+  text-align: center; 
+  font-size: 16px;
+  font-weight: 35;
+  text-decoration: none;
+
+}
+
+.homeHamburger {
+  background: url(#{$resources}/Uploaded/HomeIcon.png) center 10px/ 30px 30px no-repeat;
+  color: #fff !important;
+}
+
+.homeHamburger2 {
+  background: url(#{$resources}/Uploaded/homeIcon2.png) center 10px/ 30px 30px no-repeat;
+  color: #fff !important;
+}
+
+.backArrow {
+  background: url(#{$resources}/Uploaded/backArrow2.png) center 10px/ 30px 30px no-repeat;
+  color: #fff !important;
+}
+
+.viewSigma {
+    background: url(#{$resources}/Uploaded/3DIcon1.png) center 0px/ 45px 45px no-repeat;
+    color: #fff !important;
+}
+

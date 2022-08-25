@@ -1,0 +1,79 @@
+{
+  "experiences": [
+    {
+      "index-keys": [],
+      "title": {
+        "en": "CXC Sigma TIle Analysis"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "HomePage",
+      "url-template": "index.html?expId=1",
+      "thumbnail": "public/Uploaded/thumbnail.png",
+      "experienceType": "vumark",
+      "id": 1,
+      "entryPoint": "index.html?expId=1",
+      "vumark": "",
+      "thingTemplateName": ""
+    }
+  ],
+  "requires": [
+    "w320dp"
+  ],
+  "accessType": "private",
+  "widgetsUsage": [
+    {
+      "timestamp": "2022-08-17T20:33:12.514Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 3,
+        "twx-dt-view": 1,
+        "twx-dt-target": 1,
+        "twx-dt-model": 1,
+        "twx-overlay": 1,
+        "twx-overlay-container": 5,
+        "twx-image2": 4,
+        "twx-overlay-body": 1,
+        "twx-gridlayout": 5,
+        "twx-row": 19,
+        "twx-col": 24,
+        "twx-toggle-button": 8,
+        "twx-button": 9,
+        "twx-label": 4,
+        "twx-gauge": 3
+      }
+    },
+    {
+      "timestamp": "2022-08-24T19:43:54.941Z",
+      "action": "LATEST_SAVE",
+      "usage": {
+        "twx-view": 12,
+        "twx-gridlayout": 16,
+        "twx-row": 59,
+        "twx-image2": 13,
+        "twx-col": 55,
+        "twx-label": 9,
+        "twx-button": 29,
+        "twx-hyperlink": 1,
+        "twx-gauge": 21,
+        "twx-dt-view": 4,
+        "twx-dt-target": 4,
+        "twx-dt-model": 4,
+        "twx-overlay": 4,
+        "twx-overlay-container": 20,
+        "twx-overlay-body": 4,
+        "twx-dt-sensor": 3,
+        "twx-dt-label": 3
+      }
+    }
+  ],
+  "designedfor": [],
+  "lastExpId": 2
+}

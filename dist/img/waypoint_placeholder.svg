@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   fill="none"
+   version="1.1"
+   id="svg161"
+   sodipodi:docname="placeholder_waypoint7geometricPrecision.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs165" />
+  <sodipodi:namedview
+     id="namedview163"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     height="75px"
+     inkscape:zoom="9.4605263"
+     inkscape:cx="10.72879"
+     inkscape:cy="33.666203"
+     inkscape:window-width="1918"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg161"
+     width="36px"
+     scale-x="1" />
+  <ellipse
+     cx="32"
+     cy="32"
+     stroke="#ffffff"
+     stroke-width="3"
+     shape-rendering="geometricPrecision"
+     id="circle159"
+     fill="rgba(124,124,124,.01)"
+     rx="28"
+     ry="28" />
+</svg>

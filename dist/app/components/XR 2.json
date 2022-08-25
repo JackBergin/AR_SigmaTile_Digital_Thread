@@ -1,0 +1,407 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "mobile-2D"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "gridLayout-1",
+            "widget-name": "gridLayout-1",
+            "is-widget-container": "true"
+          },
+          "name": "twx-gridlayout",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true",
+                    "rowclass": "choiceHeader"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "image-1",
+                            "widget-name": "image-1",
+                            "imgsrc": "Uploaded/logo.svg"
+                          },
+                          "name": "twx-image2"
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "image-2",
+                            "widget-name": "image-2",
+                            "class": "logo",
+                            "imgsrc": "Uploaded/logo.svg"
+                          },
+                          "name": "twx-image2"
+                        },
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "button-1",
+                            "widget-name": "button-1",
+                            "text": "",
+                            "class": "homeHamburger"
+                          },
+                          "name": "twx-button",
+                          "children": [
+                            {
+                              "attributes": {
+                                "eventbind-id": "eb-1660778329135",
+                                "source-type": "widget",
+                                "source-label": "Button",
+                                "source-name": "button-1",
+                                "source-event": "click",
+                                "handler-namespace": "app",
+                                "handler-name": "fn",
+                                "handler-service": "navigate",
+                                "handler-path": "app-fn-navigate"
+                              },
+                              "name": "twx-eventbind",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "name": "viewname",
+                                    "value": "HomePage"
+                                  },
+                                  "name": "twx-event-data"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-2",
+                    "widget-name": "row-2",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-2",
+                            "widget-name": "column-2",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "label-1",
+                                    "state-format-value": "text",
+                                    "widget-name": "label-1",
+                                    "text": "CXC - XR Wall",
+                                    "class": "choicelabel3"
+                                  },
+                                  "name": "twx-label"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-3",
+                    "widget-name": "row-3",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-3",
+                            "widget-name": "column-3",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "gauge-1",
+                                    "state-format-value": "value",
+                                    "widget-name": "gauge-1",
+                                    "title": "XR Wall Temperature (° F)",
+                                    "titleposition": "above",
+                                    "titlefontcolor": "#ffffff",
+                                    "valuefontcolor": "#ffffff",
+                                    "backgroundcolor": "#ffffff"
+                                  },
+                                  "name": "twx-gauge",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1660780708991",
+                                        "source-type": "data",
+                                        "source-name": "XR_Temperature",
+                                        "source-item-type": "property",
+                                        "source-item-name": "Channel2_Device2_Temperature",
+                                        "binding-type": "property_field",
+                                        "from-expression": "app.mdl['XR_Temperature'].properties['Channel2_Device2_Temperature']",
+                                        "to-property": "value"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-4",
+                    "widget-name": "row-4",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-4",
+                            "widget-name": "column-4",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "gauge-2",
+                                    "state-format-value": "value",
+                                    "widget-name": "gauge-2",
+                                    "title": "XR Wall Humidity (%)",
+                                    "titleposition": "above",
+                                    "titlefontcolor": "#ffffff",
+                                    "valuefontcolor": "#ffffff",
+                                    "backgroundcolor": "#ffffff"
+                                  },
+                                  "name": "twx-gauge",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1660780717698",
+                                        "source-type": "data",
+                                        "source-name": "XR_Humidity",
+                                        "source-item-type": "property",
+                                        "source-item-name": "Channel2_Device2_Humidity",
+                                        "binding-type": "property_field",
+                                        "from-expression": "app.mdl['XR_Humidity'].properties['Channel2_Device2_Humidity']",
+                                        "to-property": "value"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-5",
+                    "widget-name": "row-5",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-5",
+                            "widget-name": "column-5",
+                            "is-widget-container": "true"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "gauge-3",
+                                    "state-format-value": "value",
+                                    "widget-name": "gauge-3",
+                                    "max": "2000",
+                                    "title": "XR Wall Pressure (Pa)",
+                                    "titleposition": "above",
+                                    "titlefontcolor": "#ffffff",
+                                    "valuefontcolor": "#ffffff",
+                                    "backgroundcolor": "#ffffff"
+                                  },
+                                  "name": "twx-gauge",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "databind-id": "db-1660780703236",
+                                        "source-type": "data",
+                                        "source-name": "XR_Pressure",
+                                        "source-item-type": "property",
+                                        "source-item-name": "Channel2_Device2_Pressure",
+                                        "binding-type": "property_field",
+                                        "from-expression": "app.mdl['XR_Pressure'].properties['Channel2_Device2_Pressure']",
+                                        "to-property": "value"
+                                      },
+                                      "name": "twx-databind"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-6",
+                    "widget-name": "row-6",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "column-6",
+                            "widget-name": "column-6",
+                            "is-widget-container": "true",
+                            "justification": "center",
+                            "alignment": "center",
+                            "wrap": "no-wrap"
+                          },
+                          "name": "twx-col",
+                          "children": [
+                            {
+                              "name": "twx-container-content",
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "twx-widget": "",
+                                    "widget-id": "button-2",
+                                    "widget-name": "button-2",
+                                    "text": "",
+                                    "class": "viewSigma"
+                                  },
+                                  "name": "twx-button",
+                                  "children": [
+                                    {
+                                      "attributes": {
+                                        "eventbind-id": "eb-1661370079380",
+                                        "source-type": "widget",
+                                        "source-label": "Button",
+                                        "source-name": "button-2",
+                                        "source-event": "click",
+                                        "handler-namespace": "app",
+                                        "handler-name": "fn",
+                                        "handler-service": "navigate",
+                                        "handler-path": "app-fn-navigate"
+                                      },
+                                      "name": "twx-eventbind",
+                                      "children": [
+                                        {
+                                          "attributes": {
+                                            "name": "viewname",
+                                            "value": "3D_XR"
+                                          },
+                                          "name": "twx-event-data"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}
